@@ -1,0 +1,29 @@
+{
+  "name": "miniprojeto.m4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "educação",
+    "ENEM",
+    "vestibular",
+    "doação",
+    "material didático",
+    "gratuito"
+  ],
+  "author": "Ruany",
+  "license": "ISC",
+  "description": "Uma API utilitária que fornece informações sobre cursos populares gratuitos de preparação para ENEM e vestibulares, além de locais de doação de materiais didáticos. Ideal para apoiar iniciativas educacionais.",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
